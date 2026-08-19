@@ -1,5 +1,7 @@
 # Enterprise Commerce MCPs
 
+Public open-source project owned by **Pawan Gunjkar** (`pawangunjkar@gmail.com` · [GitHub](https://github.com/Pawangunjkar)). MIT licensed. See `OWNER.md` and `LICENSE`.
+
 Standalone **Python MCP** project. It is **not** part of `enterprise-commerce-suite`. Each Spring Boot service and each React portal has its own FastMCP server that calls that application's HTTP API.
 
 ## Install
@@ -38,3 +40,10 @@ Copy entries from `cursor-mcp.example.json` into Cursor MCP settings. Start with
 - `src/ecs_mcp_core/` — shared HTTP client
 - `src/ecs_mcps/` — one module per application
 - `tools/generate_mcps.py` — regenerates the per-app servers from the API map
+
+## Owner
+
+- Name: Pawan Gunjkar
+- Email: pawangunjkar@gmail.com
+- GitHub: https://github.com/Pawangunjkar
+- Visibility: public open source (MIT)

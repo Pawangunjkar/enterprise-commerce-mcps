@@ -1,4 +1,7 @@
-"""Shared HTTP client for Enterprise Commerce MCP servers."""
+"""Shared HTTP client for Enterprise Commerce MCP servers.
+
+Owner: Pawan Gunjkar <pawangunjkar@gmail.com>
+"""
 
 from __future__ import annotations
 
