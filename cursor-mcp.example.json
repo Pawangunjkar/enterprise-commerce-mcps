@@ -1,0 +1,382 @@
+{
+  "mcpServers": {
+    "api-gateway": {
+      "command": "ecs-mcp-api-gateway",
+      "args": [],
+      "env": {
+        "ECS_SERVICE_URL": "http://localhost:8080"
+      }
+    },
+    "search-solr-indexer": {
+      "command": "ecs-mcp-search-solr-indexer",
+      "args": [],
+      "env": {
+        "ECS_SERVICE_URL": "http://localhost:8080"
+      }
+    },
+    "pincode-master-service": {
+      "command": "ecs-mcp-pincode-master-service",
+      "args": [],
+      "env": {
+        "ECS_SERVICE_URL": "http://localhost:8080"
+      }
+    },
+    "kafka-dlq-manager": {
+      "command": "ecs-mcp-kafka-dlq-manager",
+      "args": [],
+      "env": {
+        "ECS_SERVICE_URL": "http://localhost:8080"
+      }
+    },
+    "mca-audit-trail-service": {
+      "command": "ecs-mcp-mca-audit-trail-service",
+      "args": [],
+      "env": {
+        "ECS_SERVICE_URL": "http://localhost:8080"
+      }
+    },
+    "notification-service": {
+      "command": "ecs-mcp-notification-service",
+      "args": [],
+      "env": {
+        "ECS_SERVICE_URL": "http://localhost:8080"
+      }
+    },
+    "product-service": {
+      "command": "ecs-mcp-product-service",
+      "args": [],
+      "env": {
+        "ECS_SERVICE_URL": "http://localhost:8080"
+      }
+    },
+    "variant-matrix-service": {
+      "command": "ecs-mcp-variant-matrix-service",
+      "args": [],
+      "env": {
+        "ECS_SERVICE_URL": "http://localhost:8080"
+      }
+    },
+    "serial-imei-tracking-service": {
+      "command": "ecs-mcp-serial-imei-tracking-service",
+      "args": [],
+      "env": {
+        "ECS_SERVICE_URL": "http://localhost:8080"
+      }
+    },
+    "b2b-tiered-catalog-service": {
+      "command": "ecs-mcp-b2b-tiered-catalog-service",
+      "args": [],
+      "env": {
+        "ECS_SERVICE_URL": "http://localhost:8080"
+      }
+    },
+    "component-bundle-service": {
+      "command": "ecs-mcp-component-bundle-service",
+      "args": [],
+      "env": {
+        "ECS_SERVICE_URL": "http://localhost:8080"
+      }
+    },
+    "cpq-rule-engine": {
+      "command": "ecs-mcp-cpq-rule-engine",
+      "args": [],
+      "env": {
+        "ECS_SERVICE_URL": "http://localhost:8080"
+      }
+    },
+    "dynamic-schema-engine": {
+      "command": "ecs-mcp-dynamic-schema-engine",
+      "args": [],
+      "env": {
+        "ECS_SERVICE_URL": "http://localhost:8080"
+      }
+    },
+    "offer-promotion-service": {
+      "command": "ecs-mcp-offer-promotion-service",
+      "args": [],
+      "env": {
+        "ECS_SERVICE_URL": "http://localhost:8080"
+      }
+    },
+    "temporal-activation-service": {
+      "command": "ecs-mcp-temporal-activation-service",
+      "args": [],
+      "env": {
+        "ECS_SERVICE_URL": "http://localhost:8080"
+      }
+    },
+    "media-dam-service": {
+      "command": "ecs-mcp-media-dam-service",
+      "args": [],
+      "env": {
+        "ECS_SERVICE_URL": "http://localhost:8080"
+      }
+    },
+    "bulk-catalog-import-service": {
+      "command": "ecs-mcp-bulk-catalog-import-service",
+      "args": [],
+      "env": {
+        "ECS_SERVICE_URL": "http://localhost:8080"
+      }
+    },
+    "catalog-sync-publisher": {
+      "command": "ecs-mcp-catalog-sync-publisher",
+      "args": [],
+      "env": {
+        "ECS_SERVICE_URL": "http://localhost:8080"
+      }
+    },
+    "cart-service": {
+      "command": "ecs-mcp-cart-service",
+      "args": [],
+      "env": {
+        "ECS_SERVICE_URL": "http://localhost:8080"
+      }
+    },
+    "checkout-service": {
+      "command": "ecs-mcp-checkout-service",
+      "args": [],
+      "env": {
+        "ECS_SERVICE_URL": "http://localhost:8080"
+      }
+    },
+    "order-orchestrator": {
+      "command": "ecs-mcp-order-orchestrator",
+      "args": [],
+      "env": {
+        "ECS_SERVICE_URL": "http://localhost:8080"
+      }
+    },
+    "dynamic-price-engine": {
+      "command": "ecs-mcp-dynamic-price-engine",
+      "args": [],
+      "env": {
+        "ECS_SERVICE_URL": "http://localhost:8080"
+      }
+    },
+    "atp-inventory-service": {
+      "command": "ecs-mcp-atp-inventory-service",
+      "args": [],
+      "env": {
+        "ECS_SERVICE_URL": "http://localhost:8080"
+      }
+    },
+    "wms-fulfillment-service": {
+      "command": "ecs-mcp-wms-fulfillment-service",
+      "args": [],
+      "env": {
+        "ECS_SERVICE_URL": "http://localhost:8080"
+      }
+    },
+    "ondc-seller-gateway": {
+      "command": "ecs-mcp-ondc-seller-gateway",
+      "args": [],
+      "env": {
+        "ECS_SERVICE_URL": "http://localhost:8080"
+      }
+    },
+    "carrier-logistics-service": {
+      "command": "ecs-mcp-carrier-logistics-service",
+      "args": [],
+      "env": {
+        "ECS_SERVICE_URL": "http://localhost:8080"
+      }
+    },
+    "bopis-pickup-service": {
+      "command": "ecs-mcp-bopis-pickup-service",
+      "args": [],
+      "env": {
+        "ECS_SERVICE_URL": "http://localhost:8080"
+      }
+    },
+    "ndr-returns-rma-service": {
+      "command": "ecs-mcp-ndr-returns-rma-service",
+      "args": [],
+      "env": {
+        "ECS_SERVICE_URL": "http://localhost:8080"
+      }
+    },
+    "catalog-consumer-service": {
+      "command": "ecs-mcp-catalog-consumer-service",
+      "args": [],
+      "env": {
+        "ECS_SERVICE_URL": "http://localhost:8080"
+      }
+    },
+    "gst-tax-engine": {
+      "command": "ecs-mcp-gst-tax-engine",
+      "args": [],
+      "env": {
+        "ECS_SERVICE_URL": "http://localhost:8080"
+      }
+    },
+    "tcs-tds-compliance-engine": {
+      "command": "ecs-mcp-tcs-tds-compliance-engine",
+      "args": [],
+      "env": {
+        "ECS_SERVICE_URL": "http://localhost:8080"
+      }
+    },
+    "price-book-service": {
+      "command": "ecs-mcp-price-book-service",
+      "args": [],
+      "env": {
+        "ECS_SERVICE_URL": "http://localhost:8080"
+      }
+    },
+    "subscription-emi-service": {
+      "command": "ecs-mcp-subscription-emi-service",
+      "args": [],
+      "env": {
+        "ECS_SERVICE_URL": "http://localhost:8080"
+      }
+    },
+    "payment-gateway-service": {
+      "command": "ecs-mcp-payment-gateway-service",
+      "args": [],
+      "env": {
+        "ECS_SERVICE_URL": "http://localhost:8080"
+      }
+    },
+    "payment-gateway-plugins": {
+      "command": "ecs-mcp-payment-gateway-plugins",
+      "args": [],
+      "env": {
+        "ECS_SERVICE_URL": "http://localhost:8080"
+      }
+    },
+    "cod-remittance-reconcile-service": {
+      "command": "ecs-mcp-cod-remittance-reconcile-service",
+      "args": [],
+      "env": {
+        "ECS_SERVICE_URL": "http://localhost:8080"
+      }
+    },
+    "webhook-reconciliation-service": {
+      "command": "ecs-mcp-webhook-reconciliation-service",
+      "args": [],
+      "env": {
+        "ECS_SERVICE_URL": "http://localhost:8080"
+      }
+    },
+    "invoice-service": {
+      "command": "ecs-mcp-invoice-service",
+      "args": [],
+      "env": {
+        "ECS_SERVICE_URL": "http://localhost:8080"
+      }
+    },
+    "general-ledger-service": {
+      "command": "ecs-mcp-general-ledger-service",
+      "args": [],
+      "env": {
+        "ECS_SERVICE_URL": "http://localhost:8080"
+      }
+    },
+    "dunning-service": {
+      "command": "ecs-mcp-dunning-service",
+      "args": [],
+      "env": {
+        "ECS_SERVICE_URL": "http://localhost:8080"
+      }
+    },
+    "customer-360-service": {
+      "command": "ecs-mcp-customer-360-service",
+      "args": [],
+      "env": {
+        "ECS_SERVICE_URL": "http://localhost:8080"
+      }
+    },
+    "assisted-sales-service": {
+      "command": "ecs-mcp-assisted-sales-service",
+      "args": [],
+      "env": {
+        "ECS_SERVICE_URL": "http://localhost:8080"
+      }
+    },
+    "account-hierarchy-service": {
+      "command": "ecs-mcp-account-hierarchy-service",
+      "args": [],
+      "env": {
+        "ECS_SERVICE_URL": "http://localhost:8080"
+      }
+    },
+    "contact-address-service": {
+      "command": "ecs-mcp-contact-address-service",
+      "args": [],
+      "env": {
+        "ECS_SERVICE_URL": "http://localhost:8080"
+      }
+    },
+    "support-ticket-service": {
+      "command": "ecs-mcp-support-ticket-service",
+      "args": [],
+      "env": {
+        "ECS_SERVICE_URL": "http://localhost:8080"
+      }
+    },
+    "loyalty-rewards-service": {
+      "command": "ecs-mcp-loyalty-rewards-service",
+      "args": [],
+      "env": {
+        "ECS_SERVICE_URL": "http://localhost:8080"
+      }
+    },
+    "cart-abandonment-service": {
+      "command": "ecs-mcp-cart-abandonment-service",
+      "args": [],
+      "env": {
+        "ECS_SERVICE_URL": "http://localhost:8080"
+      }
+    },
+    "dpdp-compliance-service": {
+      "command": "ecs-mcp-dpdp-compliance-service",
+      "args": [],
+      "env": {
+        "ECS_SERVICE_URL": "http://localhost:8080"
+      }
+    },
+    "ecommerce-storefront-portal": {
+      "command": "ecs-mcp-ecommerce-storefront-portal",
+      "args": [],
+      "env": {
+        "ECS_SERVICE_URL": "http://localhost:8080"
+      }
+    },
+    "master-admin-portal": {
+      "command": "ecs-mcp-master-admin-portal",
+      "args": [],
+      "env": {
+        "ECS_SERVICE_URL": "http://localhost:8080"
+      }
+    },
+    "catalog-admin-studio": {
+      "command": "ecs-mcp-catalog-admin-studio",
+      "args": [],
+      "env": {
+        "ECS_SERVICE_URL": "http://localhost:8080"
+      }
+    },
+    "order-admin-portal": {
+      "command": "ecs-mcp-order-admin-portal",
+      "args": [],
+      "env": {
+        "ECS_SERVICE_URL": "http://localhost:8080"
+      }
+    },
+    "billing-admin-portal": {
+      "command": "ecs-mcp-billing-admin-portal",
+      "args": [],
+      "env": {
+        "ECS_SERVICE_URL": "http://localhost:8080"
+      }
+    },
+    "crm-admin-portal": {
+      "command": "ecs-mcp-crm-admin-portal",
+      "args": [],
+      "env": {
+        "ECS_SERVICE_URL": "http://localhost:8080"
+      }
+    }
+  }
+}

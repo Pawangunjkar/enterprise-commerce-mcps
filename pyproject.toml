@@ -1,0 +1,76 @@
+[project]
+name = "enterprise-commerce-mcps"
+version = "1.0.0"
+description = "Python MCP servers for every Enterprise Commerce Suite application"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+  "mcp>=1.2.0",
+  "httpx>=0.27.0",
+]
+
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[project.scripts]
+ecs-mcp-api-gateway = "ecs_mcps.api_gateway:main"
+ecs-mcp-search-solr-indexer = "ecs_mcps.search_solr_indexer:main"
+ecs-mcp-pincode-master-service = "ecs_mcps.pincode_master_service:main"
+ecs-mcp-kafka-dlq-manager = "ecs_mcps.kafka_dlq_manager:main"
+ecs-mcp-mca-audit-trail-service = "ecs_mcps.mca_audit_trail_service:main"
+ecs-mcp-notification-service = "ecs_mcps.notification_service:main"
+ecs-mcp-product-service = "ecs_mcps.product_service:main"
+ecs-mcp-variant-matrix-service = "ecs_mcps.variant_matrix_service:main"
+ecs-mcp-serial-imei-tracking-service = "ecs_mcps.serial_imei_tracking_service:main"
+ecs-mcp-b2b-tiered-catalog-service = "ecs_mcps.b2b_tiered_catalog_service:main"
+ecs-mcp-component-bundle-service = "ecs_mcps.component_bundle_service:main"
+ecs-mcp-cpq-rule-engine = "ecs_mcps.cpq_rule_engine:main"
+ecs-mcp-dynamic-schema-engine = "ecs_mcps.dynamic_schema_engine:main"
+ecs-mcp-offer-promotion-service = "ecs_mcps.offer_promotion_service:main"
+ecs-mcp-temporal-activation-service = "ecs_mcps.temporal_activation_service:main"
+ecs-mcp-media-dam-service = "ecs_mcps.media_dam_service:main"
+ecs-mcp-bulk-catalog-import-service = "ecs_mcps.bulk_catalog_import_service:main"
+ecs-mcp-catalog-sync-publisher = "ecs_mcps.catalog_sync_publisher:main"
+ecs-mcp-cart-service = "ecs_mcps.cart_service:main"
+ecs-mcp-checkout-service = "ecs_mcps.checkout_service:main"
+ecs-mcp-order-orchestrator = "ecs_mcps.order_orchestrator:main"
+ecs-mcp-dynamic-price-engine = "ecs_mcps.dynamic_price_engine:main"
+ecs-mcp-atp-inventory-service = "ecs_mcps.atp_inventory_service:main"
+ecs-mcp-wms-fulfillment-service = "ecs_mcps.wms_fulfillment_service:main"
+ecs-mcp-ondc-seller-gateway = "ecs_mcps.ondc_seller_gateway:main"
+ecs-mcp-carrier-logistics-service = "ecs_mcps.carrier_logistics_service:main"
+ecs-mcp-bopis-pickup-service = "ecs_mcps.bopis_pickup_service:main"
+ecs-mcp-ndr-returns-rma-service = "ecs_mcps.ndr_returns_rma_service:main"
+ecs-mcp-catalog-consumer-service = "ecs_mcps.catalog_consumer_service:main"
+ecs-mcp-gst-tax-engine = "ecs_mcps.gst_tax_engine:main"
+ecs-mcp-tcs-tds-compliance-engine = "ecs_mcps.tcs_tds_compliance_engine:main"
+ecs-mcp-price-book-service = "ecs_mcps.price_book_service:main"
+ecs-mcp-subscription-emi-service = "ecs_mcps.subscription_emi_service:main"
+ecs-mcp-payment-gateway-service = "ecs_mcps.payment_gateway_service:main"
+ecs-mcp-payment-gateway-plugins = "ecs_mcps.payment_gateway_plugins:main"
+ecs-mcp-cod-remittance-reconcile-service = "ecs_mcps.cod_remittance_reconcile_service:main"
+ecs-mcp-webhook-reconciliation-service = "ecs_mcps.webhook_reconciliation_service:main"
+ecs-mcp-invoice-service = "ecs_mcps.invoice_service:main"
+ecs-mcp-general-ledger-service = "ecs_mcps.general_ledger_service:main"
+ecs-mcp-dunning-service = "ecs_mcps.dunning_service:main"
+ecs-mcp-customer-360-service = "ecs_mcps.customer_360_service:main"
+ecs-mcp-assisted-sales-service = "ecs_mcps.assisted_sales_service:main"
+ecs-mcp-account-hierarchy-service = "ecs_mcps.account_hierarchy_service:main"
+ecs-mcp-contact-address-service = "ecs_mcps.contact_address_service:main"
+ecs-mcp-support-ticket-service = "ecs_mcps.support_ticket_service:main"
+ecs-mcp-loyalty-rewards-service = "ecs_mcps.loyalty_rewards_service:main"
+ecs-mcp-cart-abandonment-service = "ecs_mcps.cart_abandonment_service:main"
+ecs-mcp-dpdp-compliance-service = "ecs_mcps.dpdp_compliance_service:main"
+ecs-mcp-ecommerce-storefront-portal = "ecs_mcps.ecommerce_storefront_portal:main"
+ecs-mcp-master-admin-portal = "ecs_mcps.master_admin_portal:main"
+ecs-mcp-catalog-admin-studio = "ecs_mcps.catalog_admin_studio:main"
+ecs-mcp-order-admin-portal = "ecs_mcps.order_admin_portal:main"
+ecs-mcp-billing-admin-portal = "ecs_mcps.billing_admin_portal:main"
+ecs-mcp-crm-admin-portal = "ecs_mcps.crm_admin_portal:main"
