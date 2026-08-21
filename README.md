@@ -4,6 +4,8 @@ Public open-source project owned by **Pawan Gunjkar** (`pawangunjkar@gmail.com` 
 
 Standalone **Python MCP** project. It is **not** part of `enterprise-commerce-suite`. Each Spring Boot service and each React portal has its own FastMCP server that calls that application's HTTP API.
 
+LangGraph operators that consume these MCPs live in the sibling repo [enterprise-commerce-agents](https://github.com/Pawangunjkar/enterprise-commerce-agents).
+
 ## Install
 
 ```bash
