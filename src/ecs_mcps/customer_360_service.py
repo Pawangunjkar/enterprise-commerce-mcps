@@ -36,6 +36,15 @@ def upsert_profile(mobile: str = "", pan: str = "", gstin: str = "", name: str =
         return {"error": str(exc)}
 
 
+@mcp.tool()
+def get_profile(mobile: str = "") -> dict:
+    """Call GET /api/v1/customers/{mobile}."""
+    try:
+        return client.request("GET", f"/api/v1/customers/{mobile}")
+    except Exception as exc:
+        return {"error": str(exc)}
+
+
 def main() -> None:
     mcp.run(transport="stdio")
 

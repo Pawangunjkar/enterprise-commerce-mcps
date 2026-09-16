@@ -394,6 +394,7 @@ APPS: list[dict] = [
             ("otp_start", "POST", "/api/v1/customers/otp/start", "json", ["mobile"]),
             ("otp_verify", "POST", "/api/v1/customers/otp/verify", "json", ["mobile", "otp"]),
             ("upsert_profile", "PUT", "/api/v1/customers/{mobile}", "path+json", ["mobile", "pan", "gstin", "name"]),
+            ("get_profile", "GET", "/api/v1/customers/{mobile}", "path", ["mobile"]),
         ],
     },
     {
