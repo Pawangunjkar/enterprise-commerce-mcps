@@ -1,5 +1,7 @@
 # Enterprise Commerce MCPs
 
+[![M8ven Score](https://m8ven.ai/badge/mcp/pawangunjkar/enterprise-commerce-mcps)](https://m8ven.ai/mcp/pawangunjkar/enterprise-commerce-mcps)
+
 Public open-source project owned by **Pawan Gunjkar** (`pawangunjkar@gmail.com` · [GitHub](https://github.com/Pawangunjkar)). MIT licensed. See `OWNER.md` and `LICENSE`.
 
 Standalone **Python MCP** project. It is **not** part of `enterprise-commerce-suite`. Each Spring Boot service and each React portal has its own FastMCP server that calls that application's HTTP API.
